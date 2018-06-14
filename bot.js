@@ -25,14 +25,6 @@ client.on('message', message => {
     	message.reply('a world biggest noob that u will only found in this server');
   	}
 });
-if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("No.");
-  if(!args[0]) return message.channel.send("no");
-  message.channel.bulkDelete(args[0]).then(() => {
-  message.channel.send(`Clear ${args[0]} messages.`).then(msg => msg.delete(2000));
-});
-
-}
-
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
