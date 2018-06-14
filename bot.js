@@ -3,12 +3,11 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    message.reply('i am readyl');
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'hey') {
+    	message.reply('hi');
   	}
 });
 // THIS  MUST  BE  THIS  WAY
