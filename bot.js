@@ -21,10 +21,19 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === 'who is Antares Qlapard') {
-    	message.reply('a world biggest noob that u will only found in this server');
+    if (message.content === '?who is Antares Qlapard') {
+    	message.reply('one of our mod team ');
   	}
 });
-
+client.on('message', message => {
+    if (message.content === '?who is rgt') {
+    	message.reply('one of our admin team ');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '?who is devios') {
+    	message.reply('owner/devloper of the game called DeltaSquad ');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
