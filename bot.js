@@ -20,7 +20,16 @@ client.on('message', message => {
     	message.reply('the owner of DeltaSquad is Devios#3344');
   	}
 });
-
+client.on('message', message => {
+    if (message.content === 'what is portable strike') {
+    	message.reply('a best and cool upcoming ios and andriod game with cool features and gamemode');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'who is the owner of Portable Strike') {
+    	message.reply('the owner of Portable Strike is Arab2op#1292');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
