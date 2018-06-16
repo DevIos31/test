@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+?const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -41,7 +41,7 @@ client.on('message', message => {
     }
 });
 client.on('message', message => {
-    if (message.content === 'who is  KrishPhadte') {
+    if (message.content === '?who is  KrishPhadte') {
     	message.reply('A cool moderator of a game called DeltaSquad');
     }
 });
@@ -51,17 +51,21 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === 'who is  MedarkDuk3') {
+    if (message.content === '?who is  MedarkDuk3') {
     	message.reply('A cool moderator of a game called DeltaSquad');
     }
 });
 client.on('message', message => {
-    if (message.content === 'who is  Cookie') {
+    if (message.content === '?who is  Cookie') {
     	message.reply('A cool moderator of a game called DeltaSquad');
     }
 });
 
-
+client.on('message', message => {
+    if (message.content === '?who is  Ramos') {
+    	message.reply('A owner of a company called squad6rt gameing studio');
+    }
+});
 
 
 // THIS  MUST  BE  THIS  WAY
