@@ -45,9 +45,7 @@ client.on('message', message => {
 		.addField("!announcement [text]", "Will make the bot say an announcement and tag everyone")
 		.addField("!cat", "Will send a random cat image");
 		message.channel.send({embed})
-	}
-
-});
+	};
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
