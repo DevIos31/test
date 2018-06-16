@@ -22,12 +22,12 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === '?who is Antares Qlapard') {
-    	message.reply('one of our mod team ');
+    	message.reply('A cool moderator of a game called DeltaSquad');
   	}
 });
 client.on('message', message => {
     if (message.content === '?who is rgt') {
-    	message.reply('one of our admin team ');
+    	message.reply('A cool Admin of a game called DeltaSquad ');
   	}
 });
 client.on('message', message => {
@@ -40,6 +40,29 @@ client.on('message', message => {
     	message.reply('go ask mod i am lazy ');
     }
 });
+client.on('message', message => {
+    if (message.content === 'who is  KrishPhadte') {
+    	message.reply('A cool moderator of a game called DeltaSquad');
+    }
+});
+client.on('message', message => {
+    if (message.content === '?who is T4LHA') {
+    	message.reply('A cool Admin of a game called DeltaSquad ');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'who is  MedarkDuk3') {
+    	message.reply('A cool moderator of a game called DeltaSquad');
+    }
+});
+client.on('message', message => {
+    if (message.content === 'who is  Cookie') {
+    	message.reply('A cool moderator of a game called DeltaSquad');
+    }
+});
+
+
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
