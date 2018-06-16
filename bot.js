@@ -35,7 +35,7 @@ client.on('message', message => {
     	message.reply('owner/devloper of the game called DeltaSquad ');
   	}
 });
-if (fromID === me && text.includes("!say") ) {
+if (fromID === me && text.includes("say") ) {
     bot.sendMessage({ to: channel, message: txt.replace('!say ','') });
 }
 // THIS  MUST  BE  THIS  WAY
