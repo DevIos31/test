@@ -35,14 +35,6 @@ client.on('message', message => {
     	message.reply('owner/devloper of the game called DeltaSquad ');
   	}
 });
-if (command === "say") {
-		message.delete()
-        const embed = new Discord.RichEmbed()
-		.setColor(0x954D23)
-		.setDescription(message.author.username + " says: " + args.join(" "));
-		message.channel.send({embed})
-	} else
-
 	if (command == "help") {
 		const embed = new Discord.RichEmbed()
 		.setColor(0x954D23)
