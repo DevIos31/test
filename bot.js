@@ -61,11 +61,6 @@ client.on('message', message => {
     }
 });
 
-client.on('message', message => {
-    if (message.content === '?who is  Ramos') {
-    	message.reply('A owner of a company called squad6rt gameing studio');
-    }
-});
 
 
 // THIS  MUST  BE  THIS  WAY
