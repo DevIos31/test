@@ -35,6 +35,19 @@ client.on('message', message => {
     	message.reply('owner/devloper of the game called DeltaSquad ');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'help') {
+    	message.reply('const embed = new Discord.RichEmbed()
+		.setColor(0x954D23)
+		.setTitle("Command List:")
+		.addField("!help", "Will give the current command list")
+		.addField("!ping", "WIll show the ping time for the bot")
+		.addField("!say [text]", "Will make the bot say something")
+		.addField("!announcement [text]", "Will make the bot say an announcement and tag everyone")
+		.addField("!cat", "Will send a random cat image");
+		message.channel.send({embed})');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
