@@ -45,23 +45,6 @@ client.on('message', message => {
     	message.reply('A cool moderator of a game called DeltaSquad');
     }
 });
-client.on('message', message => {
-    if (message.content === '?who is T4LHA') {
-    	message.reply('A cool Admin of a game called DeltaSquad ');
-  	}
-});
-client.on('message', message => {
-    if (message.content === '?who is  MedarkDuk3') {
-    	message.reply('A cool moderator of a game called DeltaSquad');
-    }
-});
-client.on('message', message => {
-    if (message.content === '?who is  Cookie') {
-    	message.reply('A cool moderator of a game called DeltaSquad');
-    }
-});
-
-
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
