@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === 'what is DeltaSquad') {
-    	message.reply('if anyone want to download type ``DeltaSquad`` or go in our website ``www.delta-squad.com`` or click in + sign and click join server and in code type ``deltasquad`` and ask there or go in browser and type ``discord.gg/deltasquad``');
+    	message.reply('DeltaSquad is cool fps game for mobile and pc platmform and if anyone want to download type ``DeltaSquad`` in playstore  or go in our website ``www.delta-squad.com`` or click in + sign and click join server and in code type ``deltasquad`` and ask there or go in browser and type ``discord.gg/deltasquad``');
   	}
 });
 client.on('message', message => {
@@ -41,17 +41,17 @@ client.on('message', message => {
  	}
 });
 client.on('message', message => {
-    if (message.content === '?who is Antares Qlapard') {
+    if (message.content === 'who is Antares Qlapard') {
     message.reply('A cool moderator of a game called DeltaSquad');
   	}
 });
 client.on('message', message => {
-    if (message.content === '?who is rgt') {
+    if (message.content === 'who is rgt') {
    	message.reply('A cool Admin of a game called DeltaSquad ');
   	}
 });
 client.on('message', message => {
-    if (message.content === '?who is devios') {
+    if (message.content === 'who is devios') {
     	message.reply('owner/devloper of the game called DeltaSquad ');
   	}
 });
@@ -61,7 +61,7 @@ client.on('message', message => {
     }
 });
 client.on('message', message => {
-   if (message.content === '?who is  KrishPhadte') {
+   if (message.content === 'who is  KrishPhadte') {
   	message.reply('A cool moderator of a game called DeltaSquad');
     }
 });
