@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => {
-    client.user.setGame("DeltaSquad");
+bot.on('ready', () => {
+  bot.user.setGame('DeltaSquad');
     console.log('I am ready!');
 });
 
