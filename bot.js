@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-client.User.setGame("test")
+client.User.setGame("test");
     console.log('I am ready!');
 });
 
