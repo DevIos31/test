@@ -3,8 +3,6 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
    client.user.setPresence({ game: { name: 'DeltaSquad', type: 0 } });
-  .then(console.log)
-  .catch(console.error);
     console.log('I am ready!');
 });
 
