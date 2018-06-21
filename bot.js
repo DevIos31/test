@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    client.user.setPresence({ game: { name: 'with discord.js' }, status: 'idle' })
+    client.user.setPresence({ game: { name: 'with discord.js' }, status: 'Online' })
   .then(console.log)
   .catch(console.error);
     console.log('I am ready!');
