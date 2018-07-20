@@ -68,7 +68,7 @@ client.on('message', message => {
       desription:"heyheyhey"
       color: 46FF00
     }
-}});
+}}});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
