@@ -63,9 +63,12 @@ client.on('message', message => {
 });
 client.on('message', message => {
    if (message.content === 'who is  KrishPhadte') {
-  	message.reply('A cool moderator of a game called DeltaSquad');
+  	message.channel.send({embed:{
+      title:"test"
+      desription:"heyheyhey"
+      color: 46FF00
     }
-});
+}});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
